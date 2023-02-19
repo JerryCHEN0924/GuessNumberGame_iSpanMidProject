@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+
+	<Resource 
+		name="jdbc/northwind" type="javax.sql.DataSource" 
+		driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+		url="jdbc:sqlserver://localhost:1433;databaseName=northwind;" 
+		username="sa" password="as"  
+	/>
+		
+	<Resource 
+		name="jdbc/midrush" type="javax.sql.DataSource" 
+		driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+		url="jdbc:sqlserver://localhost:1433;databaseName=midrush;" 
+		username="sa" password="as"  
+	/>
+	
+	<Resource 
+		name="jdbc/ServletProject" type="javax.sql.DataSource" 
+		driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+		url="jdbc:sqlserver://localhost:1433;databaseName=ServletProject;" 
+		username="sa" password="as"  
+	/>	
+	
+</Context>

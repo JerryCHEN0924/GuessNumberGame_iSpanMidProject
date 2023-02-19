@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>MidRush</display-name>
+  
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  
+  
+  
+  <context-param>
+    <param-name>greeting</param-name>
+    <param-value>歡迎大駕光臨</param-value>
+  </context-param>
+  <context-param>
+    <param-name>testing</param-name>
+    <param-value>歡迎來到我的異世界</param-value>
+  </context-param>
+  
+  
+  
+  <context-param>
+    <param-name>uploadDir</param-name>
+    <param-value>/uploadDirectory</param-value>
+  </context-param>
+</web-app>
